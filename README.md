@@ -1,6 +1,6 @@
 # Pterodactyl Mods Manager
 
-An extracted feature repo for the custom `Mods` tab built for a Pterodactyl panel fork.
+custom `Mods` tab built for a Pterodactyl panel fork.
 
 This package contains the main panel files used to add:
 
