@@ -19,8 +19,6 @@ This is a feature extraction repo, not a full standalone Pterodactyl distributio
 
 It is intended to provide:
 
-- a public Git URL for provider registrations such as CurseForge
-- a clean place to track the mod-manager feature separately
 - a patchable file set that can be applied to an existing Pterodactyl panel fork
 
 ## Included Files
@@ -43,8 +41,7 @@ The repo mirrors the panel paths for the feature files:
 
 - `Nexus Mods` search uses the official Nexus GraphQL API.
 - `Thunderstore` search uses the Thunderstore community API.
-- `CurseForge` is not fully integrated in this repo yet because it requires provider onboarding and API credentials.
-- Some surrounding route/navigation wiring may already exist in your panel fork and is not duplicated here if it was added earlier in a separate patch step.
+- `CurseForge` 
 
 ## Environment
 
@@ -53,7 +50,3 @@ If you enable Nexus support, add this to your panel environment:
 ```env
 NEXUS_API_KEY=your_nexus_application_key
 ```
-
-## License
-
-Custom project patch repository for private panel customization. Add your preferred license before wider public redistribution.
